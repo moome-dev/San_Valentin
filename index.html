@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Quisieras ser mi San Valentín?</title>
+    <title>¿Lisha quisieras ser mi San Valentín?</title>
     <style>
         * {
             margin: 0;
@@ -62,11 +62,26 @@
         @keyframes fall {
             to { transform: translateY(110vh); }
         }
+
+        /* --- NUEVO ESTILO AGREGADO --- */
+        .disclaimer {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+            z-index: 3;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>¿Quisieras ser mi San Valentín? <span class="heart-icon">❤️</span></h1>
+    </div>
+
+    <div class="disclaimer">
+        Si lees esto me debes un beso y una mordida en tu cachete
     </div>
 
     <script>
